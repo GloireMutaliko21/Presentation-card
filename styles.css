@@ -41,3 +41,54 @@ body {
     background: url('https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-oneill-al-pacino.jpg') left center no-repeat;
     background-size: 600px;
 }
+
+.card1 {
+    background: url('https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg') center center no-repeat;
+    background-size: 300px;
+}
+
+.card1:hover {
+    background: url('https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg') left center no-repeat;
+    background-size: 600px;
+}
+
+.card2 {
+    background: url('https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg') center center no-repeat;
+    background-size: 300px;
+}
+
+.card2:hover {
+    background: url('https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg') left center no-repeat;
+    background-size: 600px;
+}
+
+.icons {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    width: 50px;
+    justify-content: space-around;
+    align-items: center;
+    top: 226px;
+}
+
+a {
+    color: white;
+}
+
+.card h2 {
+    margin: 20px;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.fab {
+    opacity: 0;
+    transition: all 2s;
+}
+
+.card:hover h2,
+.card:hover .fab {
+    opacity: 1;
+}
