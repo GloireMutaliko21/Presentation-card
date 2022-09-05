@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    height: 390px;
+    background: black;
+    border-radius: 10px;
+    color: white;
+    font-family: arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 70px 63px -60px black;
+    margin-bottom: 100px;
+    transition: all .8s;
+}
+
+.border {
+    height: 369px;
+    width: 280px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+.card0 {
+    background: url('https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-oneill-al-pacino.jpg') center center no-repeat;
+    background-size: 300px;
+}
+
+.card0:hover {
+    background: url('https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-oneill-al-pacino.jpg') left center no-repeat;
+    background-size: 600px;
+}
